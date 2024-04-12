@@ -1,0 +1,290 @@
+.myMode body {
+    background-color: white !important;
+}
+
+.myMode {
+    color: #090a0f !important;
+    background-color: white;
+}
+
+.myMode .myModeBar {
+    background-color: #91e1d8;
+
+}
+
+.myMode .myModeBar .myModicon {
+    color: #090a0f;
+}
+
+.myMode .mymodeSideBar {
+    background-color: white;
+    /* background-color: #f2f8f5; */
+    border-right: 1.5px solid #acd4d0;
+}
+
+.myMode .myModeClient {
+    color: #090a0f;
+}
+
+.myMode .myModeditorName {
+    color: #066f65;
+}
+
+.myMode .myModeditorName .subName {
+    color: #066f65;
+}
+
+.myMode .myModecopy {
+    /* background-color: #03a28d; */
+    background-color: #28c48d;
+    color: white;
+}
+
+.myMode .myModeleave {
+    background-color: #ec5934;
+    color: white;
+}
+
+
+
+/* changing code editor to light theme */
+.myMode .CodeMirror {
+    background-color: #f7fffb !important;
+    /* background-color: #ffffff !important; */
+    /* border-bottom: 1.5px solid #acd4d0; */
+}
+
+.myMode .cm-s-moxer .CodeMirror-linenumber {
+    color: #20222d;
+}
+
+.myMode .cm-s-moxer .CodeMirror-matchingbracket {
+    outline: 1px solid grey;
+    background: rgba(0, 208, 255, 0.4);
+    color: black !important;
+}
+
+.myMode .cm-s-moxer .CodeMirror-gutters {
+    /* background: #caf8f2; */
+    background: rgba(203, 237, 232, 0.7);
+    border-right: 1px solid #aecfd5;
+}
+
+
+/* code mirror light mode highlighting scemes */
+
+.myMode .cm-s-moxer .cm-keyword {
+    color: #ce9b00;
+}
+
+.myMode .cm-s-moxer .cm-operator {
+    color: black;
+}
+
+.myMode .cm-s-moxer .cm-variable-2 {
+    color: #0048ff;
+}
+
+
+.myMode .cm-s-moxer .cm-variable-3,
+.myMode .cm-s-moxer .cm-type {
+    color: #832d31;
+}
+
+.myMode .cm-s-moxer .cm-builtin {
+    color: #FFCB6B;
+}
+
+.myMode .cm-s-moxer .cm-atom {
+    color: #6a50d2;
+}
+
+.myMode .cm-s-moxer .cm-number {
+    color: #164;
+}
+
+.myMode .cm-s-moxer .cm-def {
+    color: #922cd5;
+}
+
+.myMode .cm-s-moxer .CodeMirror-line .cm-def~.cm-def {
+    color: #ff5900;
+}
+
+.myMode .cm-s-moxer .cm-string {
+    color: #0c9e02;
+}
+
+.myMode .cm-s-moxer .cm-string-2 {
+    color: #005d11;
+}
+
+.myMode .cm-s-moxer .cm-comment {
+    color: #292e42;
+}
+
+.myMode .cm-s-moxer .cm-variable {
+    color: #041974;
+}
+
+.myMode .cm-s-moxer .cm-tag {
+    color: #480194;
+}
+
+.myMode .cm-s-moxer .cm-meta {
+    color: #d18800;
+}
+
+.myMode .cm-s-moxer .cm-attribute {
+    color: #9a3dd7;
+}
+
+.myMode .cm-s-moxer .cm-property {
+    color: #24aad2;
+}
+
+.myMode .cm-s-moxer .cm-qualifier {
+    color: #ad9b3e;
+}
+
+.myMode .cm-s-moxer .cm-variable-3,
+.myMode .cm-s-moxer .cm-type {
+    color: #ad9b3e;
+}
+
+
+/* text editor selection light mode */
+.myMode .cm-s-moxer div.CodeMirror-selected {
+    background: rgba(161, 210, 219, 0.5);
+}
+
+.myMode .cm-s-moxer.CodeMirror-focused div.CodeMirror-selected {
+    background: rgba(161, 210, 219, 0.5);
+}
+
+.myMode .cm-s-moxer .CodeMirror-line::selection,
+.myMode .cm-s-moxer .CodeMirror-line>span::selection,
+.myMode .cm-s-moxer .CodeMirror-line>span>span::selection {
+    background: rgba(161, 210, 219, 0.5);
+}
+
+.myMode .cm-s-moxer .CodeMirror-line::-moz-selection,
+.myMode .cm-s-moxer .CodeMirror-line>span::-moz-selection,
+.myMode .cm-s-moxer .CodeMirror-line>span>span::-moz-selection {
+    background: rgba(161, 210, 219, 0.5);
+}
+
+.myMode .cm-s-moxer .CodeMirror-activeline-background,
+.myMode .cm-s-moxer .CodeMirror-activeline-gutter .CodeMirror-linenumber {
+    background: rgba(161, 210, 219, 0.5);
+}
+
+/***********************************/
+.myMode .EditorCompilerDiv {
+    background-color: white;
+}
+
+.myMode .pane2 {
+    background-color: #f7fffb !important;
+    /* border: 2px solid rgb(239, 239, 239); */
+    border: 2px solid white;
+}
+
+.myMode .pane {
+    background-color: white !important;
+    border: none;
+}
+
+.myMode .top-pane {
+    background-color: white !important;
+    border: none;
+}
+
+.myMode .editor-container {
+    background-color: white !important;
+    /* border: 2px solid transparent; */
+    /* background-color: #f2f8f5; */
+}
+
+.myMode .editor-title {
+    background-color: rgba(155, 214, 208, 0.8) !important;
+    color: #20222d;
+    font-weight: 500;
+}
+
+.myMode .comexpandIcon {
+    color: #20222d;
+}
+
+.myMode .HdropDown {
+    background-color: #28c48d !important;
+}
+
+.myMode .langEditor-Div {
+    background-color: #f3feff !important;
+}
+
+.myMode .IO-Area {
+    background-color: #e4f8ee !important;
+    border-left: 1.5px solid #acd4d0;
+}
+
+.myMode .editor-container {
+    background-color: #e4f8ee !important;
+}
+
+.myMode .IO-area {
+    background-color: #ffffff;
+    color: #090a0f;
+}
+
+.myMode .clear-Btn {
+    background-color: var(--base-orange);
+}
+
+.myMode .chatBox {
+    color: #090a0f;
+}
+
+.myMode .dateLine {
+    color: #077c70;
+}
+
+.myMode .msgSendContainer .msginput {
+    color: #090a0f;
+    background-color: #ffffff;
+    border-bottom: 3px solid #55a78a;
+}
+
+.myMode .chatContainer {
+    background-color: #f2f8f5;
+    border-right: 1.5px solid #acd4d0;
+}
+
+.myMode .messageBox {
+    background-color: #ffffff;
+}
+
+.myMode .msgSendContainer .chatSendIcon {
+    color: white;
+}
+
+
+.myMode .timeAndNameLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myMode .chatUserName {
+    color: #057b52;
+}
+
+.myMode .chatTimeTag {
+    color: #43544d;
+}
+
+.myMode .messageContent {
+    color: #090a0f;
+}

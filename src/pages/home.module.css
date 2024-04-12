@@ -1,0 +1,88 @@
+.homePageWrapper {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+
+}
+
+.formWrapper {
+    background-color: rgba(35, 45, 63, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    width: 450px;
+    max-width: 90%;
+}
+
+.editorName {
+    /* color: #01ecf3; */
+    /* color: var(--base-orange); */
+    color: var(--base-color2);
+    text-align: center;
+    font-size: 2.1rem;
+    margin-bottom: 30px;
+    letter-spacing: 1.5px;
+}
+
+.editorName .sync {
+    /* color: var(--base-color2); */
+    color: var(--base-orange);
+}
+
+.mainLable {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #de917e;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+}
+
+.inputBox {
+    padding: 10px;
+    background-color: rgba(24, 69, 90, 0.2);
+    border: 2px solid transparent;
+    border-bottom: 2px solid #6eccab;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    color: var(--white);
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.joinBtn {
+    background-color: var(--base-color2);
+    margin: 20px;
+}
+
+.createInfo {
+    color: var(--light-grey);
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.createInfo a {
+    color: var(--base-color);
+    /* text-decoration: none; */
+}
+
+.createInfo a:hover {
+    opacity: 0.8;
+}

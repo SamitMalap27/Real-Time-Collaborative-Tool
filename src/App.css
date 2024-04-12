@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+  /* background-color: #02011e; */
+}
+
+:root {
+  --white: #F7FCFE;
+  --light-grey: #DEDEDE;
+  --base-color: #ACFADF;
+  --base-color2: #70dab5;
+  --base-color-dull: #6eccab;
+  --dull-pink: #cfa3bb;
+  --base-orange-light: #eb8870;
+  --base-orange: #ee6c4d;
+  --dark: #02011e;
+  --second-dark: rgba(35, 45, 63, 0.8);
+
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  font-size: 1.1rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.Hbtn {
+  border: none;
+  padding: 10px;
+  height: 45px;
+  width: 100px;
+  border-radius: 15px;
+  font-size: 1rem;
+  font-weight: 550 !important;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  transition: all 0.3 ease-in;
+}
+
+.Hbtn:hover {
+  opacity: 0.8;
+}
+
+.CodeMirror {
+  height: 93vh !important;
+  max-width: 84vw;
+  font-size: 1.1rem;
+  background-color: var(--dark) !important;
+}
+
+/* 
+.editor-container .CodeMirror {
+  border-left: 2px solid rgba(2, 66, 71, 0.323);
+  border-right: 2px solid rgba(2, 66, 71, 0.323);
+  border-bottom: 2px solid rgb(2, 66, 71, 0.323);
+
+} */
+
+.cm-s-moxer .cm-comment {
+  color: #757c9a !important;
+  font-style: italic;
+}
+
+.cm-s-moxer .CodeMirror-matchingbracket {
+  outline: 1px solid grey;
+  color: white !important;
+  background: rgba(10, 82, 82, 0.5);
+  text-decoration: none !important;
+}
+
+.cm-s-moxer .cm-string-2 {
+  color: #71a47a !important;
+}
+
+
+
+/************************** chatbot css ******************/
+.chatbot-container {
+  width: 25vw;
+  /* Adjust width as needed */
+  height: 80vh;
+  background-color: #b5e9d7;
+  border: 1px solid #b5e9d7;
+  padding: 10px 12px;
+  border-radius: 20px;
+  color: #02011e;
+}
+
+.chatbot {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+}
+
+.chatbot h1 {
+  /* padding-left: 8px; */
+  letter-spacing: 1px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+.messages {
+  margin-top: 30px;
+  flex-grow: 1;
+  overflow-y: auto;
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #100f22;
+  background-color: #d3fcee;
+  border-radius: 15px;
+  padding: 30px 10px;
+}
+
+.user-message {
+  text-align: right;
+}
+
+.chatbot-message {
+  text-align: left;
+  margin-bottom: 10px;
+  /* Add margin between messages */
+}
+
+.input-form {
+  margin-top: 20px;
+  display: flex;
+}
+
+.input-form input {
+  flex-grow: 1;
+  padding: 10px;
+  /* border: 2px solid #ccc; */
+  margin-right: 10px;
+  border-radius: 15px;
+  border: 2px solid transparent;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-bottom: 3px solid #55a78a;
+}
+
+.input-form button {
+  padding: 10px 20px;
+  background-color: var(--base-orange);
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.input-form button:hover {
+  opacity: 0.8;
+}
+
+.formatted-code {
+  white-space: pre-wrap;
+  /* Preserve line breaks */
+  display: block;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  margin: 10px 0;
+  /* Add margin for spacing between code blocks */
+}
+
+
+/* chatbot button css */
+.chatBotBtn {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  background-color: var(--base-color2);
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatBotBtn:hover {
+  opacity: 0.8;
+}
+
+.robotIcon {
+  font-size: 2rem;
+  color: #02011e;
+}
+
+/* activating chatbot */
+.activeChatbot {
+  display: block;
+  height: 75vh !important;
+  width: 40vw !important;
+  position: fixed !important;
+  right: -220px !important;
+  bottom: 120px !important;
+}
+
+/* hiding chatbot */
+.hideChatbot {
+  display: none;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(195, 206, 215);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(129, 143, 154);
+}

@@ -1,0 +1,119 @@
+.chatSidePanel {
+    min-width: 330px;
+}
+
+.chatContainer {
+    box-sizing: border-box !important;
+    background-color: rgba(7, 49, 51, 0.688);
+    /* background-color: #073133; */
+    padding: 15px;
+    min-width: 330px !important;
+    height: 93.5vh !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.msgContainer {
+    width: 330px;
+    height: 84vh !important;
+}
+
+.chatBox {
+    padding: 15px;
+    color: rgb(220, 233, 244);
+    height: 75vh;
+    overflow-y: auto;
+}
+
+.msgSendContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.dateLine {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-style: italic;
+    color: #86c3ae;
+    margin-top: 8px;
+}
+
+.msgSendContainer .msginput {
+    margin: 0;
+    width: 260px;
+    height: 47px;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    border-bottom: 2px solid var(--base-color2);
+    background-color: rgba(26, 75, 99, 0.2);
+    padding: 5px 10px;
+    color: white;
+    margin-right: 8px;
+}
+
+.msgSendContainer .chatSendBtn {
+    height: 50px;
+    width: 50px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: var(--base-orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msgSendContainer .chatSendIcon {
+    font-size: 1.7rem;
+    color: #02011e;
+    font-weight: 600;
+}
+
+.msgSendContainer .chatSendBtn:hover {
+    opacity: 0.8;
+}
+
+.messageBox {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(26, 75, 99, 0.2);
+    border-radius: 15px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+}
+
+.timeAndNameLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chatUserName {
+    color: rgb(169, 207, 197);
+    font-size: 1rem;
+    margin: 0;
+}
+
+.chatTimeTag {
+    font-size: 0.85rem;
+    font-style: oblique;
+    color: #8baba0;
+    padding-top: 3px;
+    letter-spacing: 0.8px;
+    margin: 0;
+}
+
+.messageContent {
+    font-size: 1.15rem;
+    font-weight: 450;
+    color: rgb(200, 239, 234);
+    letter-spacing: 1.5px;
+    margin: 0;
+    margin: 5px 0;
+}

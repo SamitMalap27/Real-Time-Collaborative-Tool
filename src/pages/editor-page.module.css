@@ -1,0 +1,172 @@
+.mainWrap {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+.secondWrap {
+    display: flex;
+    flex-direction: row;
+    height: 93.7vh;
+}
+
+.editorIconsBar {
+    width: 100%;
+    height: 49px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 15px;
+    background-color: rgba(0, 129, 112, 0.35);
+}
+
+.leftIcons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbarLeftSide {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.editorIcons {
+    margin: 8px 15px;
+}
+
+.lighDarkModeIcon,
+.usersIcon,
+.messageIcon,
+.playIcon {
+    font-size: 1.5rem;
+    color: var(--light-grey);
+}
+
+.codeFileIcon {
+    font-size: 1.5rem;
+    color: var(--light-grey);
+}
+
+
+.lighDarkModeIcon:hover,
+.usersIcon:hover,
+.messageIcon:hover,
+.codeFileIcon:hover,
+.playIcon:hover {
+    opacity: 0.7;
+}
+
+.sideBar {
+    box-sizing: border-box !important;
+    background-color: rgba(7, 49, 51, 0.5);
+    /* background-color: #073133; */
+    min-width: 334px !important;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sideInner {
+    width: 100%;
+}
+
+.logo {
+    border-bottom: 1px solid rgba(110, 204, 171, 0.5);
+}
+
+.editorName {
+    margin: 0;
+    color: var(--base-color2);
+    font-size: 1.9rem;
+    letter-spacing: 1.5px;
+    padding: 10px 10px 20px 10px;
+}
+
+.editorName .sync {
+    color: var(--base-orange);
+}
+
+.editorName .subName {
+    font-size: 1.5rem;
+    font-weight: 350;
+    color: #63cda8;
+    padding-top: 30px;
+    line-height: 10px;
+}
+
+.sideButtons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyBtn {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 635 !important;
+    font-size: 1.05rem;
+    background-color: var(--base-color2);
+}
+
+.leaveBtn {
+    width: 100%;
+    font-weight: 635 !important;
+    font-size: 1.05rem;
+    background-color: var(--base-orange);
+}
+
+.clientList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.membersList h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--light-grey);
+}
+
+.userName {
+    margin-top: 6px;
+}
+
+.editorWrap {
+    width: 100%;
+}
+
+.dropdownBtn {
+    margin-right: 10px;
+}
+
+.dropdownBtn .HdropDown {
+    height: 30px;
+    padding-top: 2px;
+    background-color: var(--base-color2);
+    border: 1px solid transparent;
+    color: black;
+}

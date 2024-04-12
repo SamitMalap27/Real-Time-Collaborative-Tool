@@ -1,0 +1,39 @@
+.myUsers .mymodeSideBar {
+    display: none !important;
+    transition: 0.4s ease-in;
+}
+
+.fullScreen .EditorCompilerDiv {
+    min-width: 100vw !important;
+}
+
+.fullScreen .pane {
+    margin: 0;
+    min-width: 100vw !important;
+}
+
+.fullScreen .pane2 {
+    min-width: 100vw !important;
+}
+
+.fullScreen .langEditor-Div {
+    min-width: 100vw !important;
+}
+
+.fullScreen .lang-Editor {
+    min-width: 60vw !important;
+}
+
+.fullScreen .IO-Area {
+    min-width: 40vw !important;
+}
+
+.fullScreen .IO-Area-div {
+    min-width: 35vw !important;
+}
+
+
+.myChat .chatSidePanel {
+    display: none !important;
+    transition: 0.4s ease-in;
+}
